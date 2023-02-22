@@ -43,11 +43,16 @@ class _ExListviewState extends State<ExListview> {
                 ],
               ),
             ),
-            Containers(),
-            Containers(),
-            Containers(),
-            Containers(),
-            Containers(),
+            const Containers(
+                title: 'Lorem Ipsum',
+                desc:
+                    'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
+                price: 'Rp. 100.000'),
+            const Containers(
+                title: 'Lorem Ipsume 2',
+                desc:
+                    'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...',
+                price: 'Rp. 200.000'),
           ],
         ),
       ),
