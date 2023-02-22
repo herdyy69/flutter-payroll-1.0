@@ -70,7 +70,9 @@ class Containers extends StatelessWidget {
                   padding: const EdgeInsets.only(top: 5, bottom: 5),
                   child: Text(
                     desc,
+                    maxLines: 3,
                     style: const TextStyle(
+                      overflow: TextOverflow.ellipsis,
                       color: Colors.white,
                       fontSize: 12,
                       fontWeight: FontWeight.w400,
