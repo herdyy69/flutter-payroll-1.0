@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home.dart';
-import 'homies.dart';
+import 'pages/ex_listview.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,6 +16,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const Homies());
+        home: const ExListview());
   }
 }
